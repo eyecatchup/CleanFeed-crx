@@ -1,0 +1,23 @@
+{
+  "name": "CleanFeed",
+  "version": "1.0.0",
+  "description": "This extension removes the \"sponsored stories\" and \"suggested posts\" from your Facebook Feed.",
+  "homepage_url": "https://github.com/eyecatchup/CleanFeed-crx",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.facebook.com/*",
+        "https://m.facebook.com/*",
+        "http://www.facebook.com/*",
+        "http://m.facebook.com/*"
+      ],
+      "run_at": "document_end",
+      "js": ["inject.js"]
+    }
+  ],
+  "icons" : {
+    "48" : "icon48.png"
+  },
+  "manifest_version": 2,
+  "content_security_policy": "default-src 'none'; style-src 'self'; script-src 'self'; object-src 'self'; img-src 'self'"
+}
