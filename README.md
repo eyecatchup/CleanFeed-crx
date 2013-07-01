@@ -6,7 +6,7 @@ A Google Chrome Extension to remove suggested posts and sponsored stories from y
 ## How-To
 
 <ol>
-<li>Download the Google Chrome extension package file: <a target="_blank" href="https://github.com/eyecatchup/CleanFeed-crx/raw/master/bin/CleanFeed.crx">CleanFeed.crx</a>.</li>
+<li>Download the Google Chrome extension package file: <a target="_blank" href="http://bit.ly/cleanfeed-crx">CleanFeed.crx</a>.</li>
 <li>Click the wrench icon on the browser toolbar.</li>
 <li>Select Tools > Extensions.</li>
 <li>Locate the downloaded extension package file (CleanFeed.crx) on your computer and drag the file onto the Extensions page.</li>
